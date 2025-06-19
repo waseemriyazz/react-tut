@@ -2,7 +2,7 @@ import Hello from "./components/Hello.jsx";
 function App() {
   return (
     <div className="App">
-      <Hello />
+      <Hello name="Bob" message="Get a Job" />
       <Hello />
     </div>
   );
