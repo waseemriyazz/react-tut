@@ -1,5 +1,4 @@
-import Hello from "./components/Hello.jsx";
-import HelloObject from "./components/HelloObject.jsx";
+import Fruits from "./components/Fruits.jsx";
 function App() {
   const person = {
     name: "Jack",
@@ -8,9 +7,7 @@ function App() {
   };
   return (
     <div className="App">
-      <Hello name="Bob" message="Get a Job" />
-      <Hello />
-      <HelloObject person={person} />
+      <Fruits />
     </div>
   );
 }
