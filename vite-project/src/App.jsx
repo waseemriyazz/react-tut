@@ -1,3 +1,4 @@
+import ConditionalComponent from "./components/ConditionalComponent.jsx";
 import Fruits from "./components/Fruits.jsx";
 function App() {
   const person = {
@@ -7,7 +8,7 @@ function App() {
   };
   return (
     <div className="App">
-      <Fruits />
+      <ConditionalComponent />
     </div>
   );
 }
