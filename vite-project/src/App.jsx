@@ -1,3 +1,4 @@
+import Counter from "./components/Counter.jsx";
 import Message from "./components/Message.jsx";
 function App() {
   const person = {
@@ -7,7 +8,7 @@ function App() {
   };
   return (
     <div className="App">
-      <Message />
+      <Counter />
     </div>
   );
 }
