@@ -2,19 +2,17 @@ import Fruits from "./Fruits";
 import Welcome from "./Welcome";
 
 export default function ConditionalComponent() {
-  const display = false;
+  const display = true;
+  let message;
   if (display) {
-    return (
-      <div>
-        <Welcome />
-      </div>
-    );
+    message = <Welcome />;
   } else {
-    return (
+    message = (
       <div>
         {" "}
         <Fruits />
       </div>
     );
   }
+  return message;
 }
